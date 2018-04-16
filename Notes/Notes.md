@@ -39,8 +39,8 @@ Notes - Monday 16th April 2018
     
     ONCE the local git created, then; to maintain :
     
-    git add filename (or .)
-    git commit -m (to commit locally)
+    git add filename (or .)  if there is no file in a folder then it's not added. All files must be added, the sync is not based on folder. Best thing : use "."
+    git commit -m "..." (to commit locally)
     git push (to sync with the remote repository)
     
 
@@ -59,6 +59,8 @@ Notes - Monday 16th April 2018
     Commit is like saving and Pushing is putting on the cloud.
     Commit is local and push in to push to a distance host.
     Take the habit to commit often ! Important for employer; show how you got to the final result.
+    
+    
     
     
     
