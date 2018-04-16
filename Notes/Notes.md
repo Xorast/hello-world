@@ -1,7 +1,7 @@
 Notes - Monday 16th April 2018
 
 ** To do **
-    Watch the video about user centric. 5 videos : one a day for next monday (23/04/18)
+    Watch the videos about user centric. 5 videos : one a day for next monday (23/04/18)
 
 ** Bash command **
     pwd     == Print Working Directory (enable to know where we are)
@@ -18,6 +18,31 @@ Notes - Monday 16th April 2018
                 f stands for force (without asking, just do it)
                 rm -rf /    delete everything on your computer
     quit nano editor : ctrl + x 
+    
+    The whole procedure to create a repository on Git (or another host) and link the local repository to it :
+    
+    git init (create a git repository locally)
+    git status
+    git add filename (use . for everything at the root) to add a file to the local git repository
+    git commit -m "Initial commit" (the message between the " " are for us, developers)
+    
+    Everytime we commit, we need to first "git add filename" and then "git commit -m "customize message".
+    You need to provide a message, Git force you to do so. This message is adress to "us", for our own reading.
+    
+    git remote add origin git@github.com:Xorast/hello-world.git  Create a remote repository, and name the local git "origin" (convention) and 
+    link it to the repository that is at the following adress : "git@github.com:Xorast...". The latter (on Github) will be the "master"
+    git push -u origin master (git push -u : upload : origin : from "origin"; the local git; to the branch "master" (in that instance)
+    
+    git push 
+    
+    You MUST commit BEFORE you PUSH !!
+    
+    ONCE the local git created, then; to maintain :
+    
+    git add filename (or .)
+    git commit -m (to commit locally)
+    git push (to sync with the remote repository)
+    
 
 ** Shorcut **
     ctrl + /     comments
@@ -30,6 +55,12 @@ Notes - Monday 16th April 2018
     We tend to use relative path. We use " ./lalalala" the "./" is "in the directory we are currently in". For example for the link to the css file for html.
     One dot . directory we are in
     Two dot .. directory one level above
+    
+    Commit is like saving and Pushing is putting on the cloud.
+    Commit is local and push in to push to a distance host.
+    Take the habit to commit often ! Important for employer; show how you got to the final result.
+    
+    
     
     
 
