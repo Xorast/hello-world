@@ -1,0 +1,19 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Oswald', sans-serif; /* Default and fall back font--> */
+}
+
+/* Shorcut : ctrl + / : makes the whole line into comments */
+
+nav ul {
+    list-style: none;
+    background-color: gray;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    display: inline-block;
+}
